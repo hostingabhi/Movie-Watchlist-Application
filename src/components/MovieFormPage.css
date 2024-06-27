@@ -1,0 +1,33 @@
+.movie-form-page {
+    text-align: center;
+  }
+  
+  .movie-form-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .movie-form-page input,
+  .movie-form-page textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .movie-form-page button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+  
+  .movie-form-page button:hover {
+    background-color: #0056b3;
+  }
+  

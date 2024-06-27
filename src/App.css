@@ -1,0 +1,64 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+h2, h3 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+div {
+  margin: 20px 0;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: left;
+}

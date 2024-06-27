@@ -1,0 +1,25 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "Inception",
+        "description": "A mind-bending thriller",
+        "releaseYear": 2010,
+        "genre": "Sci-Fi",
+        "watched": false,
+        "rating": 0,
+        "reviews": []
+      },
+      {
+        "id": 2,
+        "title": "The Matrix",
+        "description": "A computer hacker",
+        "releaseYear": 1999,
+        "genre": "Action",
+        "watched": true,
+        "rating": 5,
+        "reviews": [""]
+      }
+    ]
+  }
+  
