@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { rateMovie, addReview } from '../features/movies/moviesSlice';
+import { rateMovie} from '../features/movies/moviesSlice';
 import './MovieDetailsPage.css';
 
 const MovieDetailsPage = () => {
@@ -23,13 +23,6 @@ const MovieDetailsPage = () => {
   const handleRating = (newRating) => {
     setRating(newRating);
     dispatch(rateMovie({ id: parseInt(id), rating: newRating }));
-  };
-
-  const handleReviewSubmit = () => {
-    if (reviewInput.trim()) {
-      dispatch(addReview({ id: parseInt(id), review: reviewInput }));
-      setReviewInput(''); // Clear the review input after submission
-    }
   };
 
   if (!movie) {
